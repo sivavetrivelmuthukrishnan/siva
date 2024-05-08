@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tit>
+
+        </tit>
+    </head>
+    <body style="background-color: antiquewhite; ">
+        
+        <center>
+        <h1> KGISL INSTITUTE OF INFORMATON MANAGEMENT</h1>
+        <hr>
+        <h2>REGISTER ON YOUR DETAILS</h2>
+
+        <form style="background-image: url(about-us-vid.jpg);">
+            <fieldset>
+            <table>
+                <tr>
+                    <td>NAME :</td>
+                    <td ><input type="text" placeholder="ENTER YOUR NAME"></td>
+                </tr>
+                <tr>
+                    <td>AGE:</td>
+                    <td><input type="number" placeholder="Enter your age"></td>
+
+                </tr>
+                <tr>
+                    <td>GENDER :</td>
+                    <td><input type="radio"  name="GENDER"> MALE</td>
+                    <td><input type="radio"  name="GENDER"> GIRL</td>
+                    <td></td>
+                    <tr>
+                        <td>EMAIL :</td>
+                        <td><input type="email" placeholder="ENTER YOUR EMAIL"></td>
+                    </tr>
+                   <tr>
+                    <td>PHONE NUMBER :</td>
+                    <td><input type="number" placeholder="ENTER YOUR NUMBER"></td>
+
+                   </tr>
+                   <tr>
+                    <td> CHOOSE YOUR COURSE:</td>
+                    <td>
+                        <select>
+                            <option>MCA</option>
+                            <option>MBA</option>
+                            <option>MA</option>
+                            <option>MSC</option
+                        </select>
+                    </td>
+
+                </tr>
+                    <td>
+                    AVAILABLE DOMAIN:
+                    </td>
+                    <td>
+                        <SELECT size="3">
+                           <option>FSWD</option>
+                           <option>DATA SCIENCE</option>
+                           <option>CLOUD COMPUTING</option>
+                           <option>CYBER</option>
+                           <option>AI</option>
+                           <option>ML</option>
+                           <option >DATA ANALYTICS</option>a
+                             
+                        </SELECT>
+
+                
+                </td>
+                <tr>
+                <td>FEED BACK:</td>
+                <td><textarea ></textarea></td>
+                </tr> 
+                <td>ELIGIBAL CRITERIYA:</td>  
+                <td><form action="/action_page.php">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="ELIGIBAL"> 12th</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="ELIGIBAL"> 10th</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="ELIGIBAL"> UNDER GRADUATE</label><br><br>
+                    <input type="submit" value="Submit">
+                  </form></td>
+                <td></td>
+                <tr>
+                    <td><input type="submit"></td>
+                </tr>
+                <tr>
+                <td><input type="reset"></td>
+                </tr>
+                
+
+            </table>
+            </fieldset>
+        </form>
+        <script>
+            window.alert("good");
+        </script>
+    </center>
+    </body>
+</html>
